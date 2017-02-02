@@ -1,0 +1,113 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FastEasyMapping (0.5.1)
+  - Firebase/Core (3.10.0):
+    - FirebaseAnalytics (= 3.6.0)
+    - FirebaseCore (= 3.4.5)
+  - FirebaseAnalytics (3.6.0):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.4.5):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.8)
+  - GIFProgressHUD (1.0.2)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/Defines (2.1.0)
+  - GoogleToolboxForMac/NSData+zlib (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - IQKeyboardManager (3.3.7)
+  - JTProgressHUD (1.0.5)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MarqueeLabel (3.0.1):
+    - MarqueeLabel/ObjC (= 3.0.1)
+  - MarqueeLabel/ObjC (3.0.1)
+  - Masonry (0.6.4)
+  - MBProgressHUD (1.0.0)
+  - NSDate+TimeAgo (1.0.6)
+  - Reachability (3.2)
+  - RealReachability (1.1.8):
+    - RealReachability/Connection (= 1.1.8)
+    - RealReachability/Ping (= 1.1.8)
+  - RealReachability/Connection (1.1.8)
+  - RealReachability/Ping (1.1.8)
+  - SSKeychain (1.4.1)
+  - TAlertView (0.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - FastEasyMapping (~> 0.5)
+  - Firebase/Core
+  - GIFProgressHUD
+  - GoogleMaps
+  - IQKeyboardManager (~> 3.2)
+  - JTProgressHUD
+  - MagicalRecord (~> 2.2)
+  - MarqueeLabel
+  - Masonry (~> 0.5)
+  - MBProgressHUD (~> 1.0.0)
+  - NSDate+TimeAgo (~> 1.0)
+  - Reachability
+  - RealReachability
+  - SSKeychain (~> 1.2)
+  - TAlertView
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  FastEasyMapping: 03a3fbe3af1005e67974358a4ec2b4764f8aa3b4
+  Firebase: 387f37c7dca894a02708da9ff35ba147040eae9e
+  FirebaseAnalytics: 9c67af0ebeb8d2146c9b4ea2616439affa947b58
+  FirebaseCore: 1e383fdfe37b6b5d6ff88e84204bdee30276af0f
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  GIFProgressHUD: a149cdf8a876645fbb4848a8ed291381ddc2c752
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JTProgressHUD: 7eb019487a92731c8716c15f19e94690cf35f644
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MarqueeLabel: 80ba85d2b76a9f5fa6c13de337db80bcd94feb1d
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  NSDate+TimeAgo: 35601c619b2d59290055e4fe76e61d97677a2360
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  TAlertView: 3787ac0ea7e832d80be129a9be960eb1fc5c73f1
+
+PODFILE CHECKSUM: ffcba221dcd68d12504e05134fa12e13b1877d1c
+
+COCOAPODS: 1.1.1

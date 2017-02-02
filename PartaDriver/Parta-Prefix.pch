@@ -1,0 +1,38 @@
+//
+//  Parta-Prefix.pch
+//  PartaApp
+//
+//  Created by pavan krishna on 29/11/16.
+//  Copyright © 2016 Pavan. All rights reserved.
+//
+
+#ifndef Parta_Prefix_pch
+#define Parta_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+
+#define MAS_SHORTHAND
+#define MR_SHORTHAND
+
+#import <QuartzCore/QuartzCore.h>
+
+#import <Masonry.h>
+#import <Typhoon.h>
+
+#import "CoreData+MagicalRecord.h"
+#import "TAssembly.h"
+#import "TDIContainer.h"
+#import "Parta-Constants.h"
+#import "TBaseJourney.h"
+
+#import "UIFont+Extensions.h"
+#import "UIColor+Extensions.h"
+#import "UILabel+Extensions.h"
+#import "UIButton+Extensions.h"
+#import "UITextView+Extensions.h"
+#import "UITextField+Extensions.h"
+#import "UIImage+CCImage.h"
+
+#endif /* Parta_Prefix_pch */

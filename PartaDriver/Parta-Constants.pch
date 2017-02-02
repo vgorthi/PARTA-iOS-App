@@ -1,0 +1,30 @@
+//
+//  Parta-Constants.pch
+//  PartaApp
+//
+//  Created by pavan krishna on 29/11/16.
+//  Copyright © 2016 Pavan. All rights reserved.
+//
+
+#ifndef Parta_Constants_pch
+#define Parta_Constants_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+typedef enum : NSUInteger {
+    
+    TUserTypeSelectionStateSelected,
+    TUserTypeSelectionStateUnSelected,
+    
+} TUserTypeSelectionState;
+
+typedef enum : NSUInteger {
+    
+    TUserTypeCustomer,
+    TUserTypeDriver,
+    
+} TUserType;
+
+
+#endif /* Parta_Constants_pch */
